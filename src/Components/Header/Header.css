@@ -1,0 +1,39 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #b8b8b6;
+}
+.header_container > p {
+  font: normal normal bold Aktiv Grotesk;
+  color: #b8b8b6;
+}
+.header_container > div > p {
+  font: normal normal bold Aktiv Grotesk;
+  color: #b8b8b6;
+}
+.header_container > div {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  border: solid #ff6600;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  color: #ff6600;
+  font-size: 20px;
+  opacity: 1;
+  font-weight: bold;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 8px !important;
+}
+.bi {
+  margin-left: 10px;
+  color: #ff6600;
+}
